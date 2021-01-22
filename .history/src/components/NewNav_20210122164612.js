@@ -1,8 +1,13 @@
 import React, { Component } from "react";
-import logo from "../images/weedProLogo.svg";
+import logo from "../images/logo.png";
 import { Nav, Navbar, NavDropdown, Form, FormControl, Button, Container } from "react-bootstrap"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "../App.css"
+
+
+const centerWidth = {
+  width: '100%'
+}
 
 export default class NewNav extends Component {
     state = {
@@ -54,7 +59,9 @@ export default class NewNav extends Component {
         }
     }
     render() {
-        return <div className="myContainer">
+        return
+        <>
+        <div className="myContainer">
             <Navbar id="navbar" className="newNav" expand="lg">
             <Navbar.Brand href="/"><img id="logo" src={logo} alt="Weed Pro UK"/></Navbar.Brand>
             <Navbar.Toggle className="custom-toggler" aria-controls="basic-navbar-nav" />
@@ -69,6 +76,6 @@ export default class NewNav extends Component {
                     </Navbar.Collapse>
         </Navbar>
             </div>
-    
+        </>
     }
 }

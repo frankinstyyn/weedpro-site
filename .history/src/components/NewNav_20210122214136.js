@@ -4,6 +4,11 @@ import { Nav, Navbar, NavDropdown, Form, FormControl, Button, Container } from "
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "../App.css"
 
+
+const centerWidth = {
+  width: '100%'
+}
+
 export default class NewNav extends Component {
     state = {
         isOpen: false

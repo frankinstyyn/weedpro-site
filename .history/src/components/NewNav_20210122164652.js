@@ -1,8 +1,13 @@
 import React, { Component } from "react";
-import logo from "../images/weedProLogo.svg";
+import logo from "../images/logo.png";
 import { Nav, Navbar, NavDropdown, Form, FormControl, Button, Container } from "react-bootstrap"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "../App.css"
+
+
+const centerWidth = {
+  width: '100%'
+}
 
 export default class NewNav extends Component {
     state = {

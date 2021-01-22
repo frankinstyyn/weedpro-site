@@ -123,7 +123,7 @@ h6 {
 }
 
 .logoShrink {
-  width: 190px !important;
+  width: 200px !important;
   transition: 0.9s;
 }
 
@@ -149,7 +149,7 @@ h6 {
 
 #navbar {
   overflow: hidden;
-  padding: 20px;
+  padding: 20px 15%;
   transition: 0.4s;
   position: fixed;
   display: flex;
@@ -182,12 +182,7 @@ h6 {
 }
 
 .navbar-light .navbar-toggler-icon {
-  background-image: url("../src/images/alignRight.svg") !important;
-  border-color: var(--secondaryColor) !important;
-}
-
-.navbar-light .navbar-toggler {
-  border-color: rgba(255, 255, 255, 0) !important;
+  background-image: url("../src/images/golf-club.svg") !important;
 }
 
 .nav-btn {
@@ -588,12 +583,4 @@ h6 {
 .footer-menu li a {
   font-size: 14px;
   color: #878787;
-}
-
-/* Target nav-size iPhone 5 only  */
-
-@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
-  #logo {
-    width: 200px;
-  }
 }
