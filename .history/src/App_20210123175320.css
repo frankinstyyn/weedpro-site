@@ -27,6 +27,7 @@ body {
   /* padding-top: 66px; */
   color: var(--mainBlack);
   background: var(--mainWhite);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   line-height: 1.4;
   height: 100%;
 }
@@ -294,7 +295,6 @@ h6 {
   padding-top: 2rem;
   font-family: "Alegreya Sans SC", sans-serif;
   font-style: italic;
-  font-weight: 800;
 }
 /* .banner div {
   width: 10rem;

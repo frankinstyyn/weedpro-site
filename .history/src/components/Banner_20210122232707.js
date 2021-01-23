@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from "react-router-dom"
 
-export default function Banner() {
+export default function Banner({children,title,subtitle}) {
     return (
         <div className="banner">
              <div className="row">
@@ -9,7 +9,7 @@ export default function Banner() {
                     <h1>
                         Professional Outdoor Cleaning in Derby
                     </h1>
-                    <Link to="/cleaning-services" className="btn-services">07977256222</Link>
+                    <Link to="/cleaning-services" className="btn-services">Learn More</Link>
                     </div>
                 <div className="col-sm-6">This will be a contact form eventually</div>
             </div> 
