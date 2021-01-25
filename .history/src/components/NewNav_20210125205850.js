@@ -3,8 +3,8 @@ import logo from "../images/weedProLogo.svg";
 import { Nav, Navbar } from "react-bootstrap"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "../App.css"
-import { HashLink as Link } from 'react-router-hash-link';
-
+// import { HashLink as Link } from 'react-router-hash-link';
+import { Link, animateScroll as scroll } from "react-scroll";
 
 export default class NewNav extends Component {
     state = {
@@ -62,29 +62,11 @@ export default class NewNav extends Component {
             <Navbar.Toggle className="custom-toggler" aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="ml-auto">
-                        <Link
-                        activeClass="active"
-                            to="/#ourServices"
-                            spy={true}
-                            smooth={true}
-                            offset={-70}
-                            duration={5}
-                        >
-                            <Nav.Link id="nav-links" href="/#ourServices">Services</Nav.Link>
-                        </Link>
-                    <Link
-                        activeClass="active"
-                            to="/#waysOfWorking"
-                            spy={true}
-                            smooth={true}
-                            offset={-200}
-                            duration={5}
-                        >
-                            <Nav.Link href="/#waysOfWorking">Ways of Working</Nav.Link>
-                            </Link>
+                    <Nav.Link id="nav-links" href="/#ourServices">Services</Nav.Link>
+                    <Nav.Link href="/#waysOfWorking">Ways of Working</Nav.Link>
                     <Nav.Link href="/#completedWork">Completed Work</Nav.Link>
                     <Nav.Link href="/#equipment">Equipment</Nav.Link>
-                    <Nav.Link href="/#about">About</Nav.Link>
+                    <Nav.Link href="/about">About</Nav.Link>
                 </Nav>
 
                     </Navbar.Collapse>

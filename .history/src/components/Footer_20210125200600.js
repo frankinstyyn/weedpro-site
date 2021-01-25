@@ -1,5 +1,5 @@
 import React from "react"
-import { FaEnvelope, FaFacebook } from "react-icons/fa"
+import { FaLocationArrow, FaPhone, FaEnvelope, FaLinkedin } from "react-icons/fa"
 import logoTB from "../images/weedProLogo.svg"
 
 const Footer = () => {
@@ -43,8 +43,8 @@ const Footer = () => {
                         <div class="footer-widget">
                             <div class="footer-social-icon">
                                 <span>Social Links</span>
-                                <a href="#" className="linkedin-bg"><FaFacebook /></a>
-                                <a href="mailto:simon@weedpro-uk.com" className="email-bg"><FaEnvelope /></a>
+                                <a href="#" className="linkedin-bg"><FaLinkedin /></a>
+                                <a href="#" className="email-bg"><FaEnvelope /></a>
                             </div>
                         </div>
                     </div>

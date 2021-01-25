@@ -12,9 +12,9 @@ export default function Banner() {
                         Professional Outdoor Cleaning in Derby and Derbyshire
                     </h1>
                         <p>
-                            Using no water or chemicals. We provide effecient, green, ECO cleaning with less mess! 
+                            Using no water or chemicals means we provide effecient, green ECO cleaning with less mess! 
                         </p>
-                    <Link to="/cleaning-services" id="ourServices" className="btn-services">07977256222</Link>
+                    <Link to="/cleaning-services" className="btn-services">07977256222</Link>
                     </div>
                     </div>
                 <div className="col-sm-6">

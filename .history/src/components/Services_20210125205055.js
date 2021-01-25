@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 export class Services extends Component {
     render() {
         return (
-            <div className="services">
+            <div id="ourServices" className="services">
                 <div class="servicesHead">
                 <h1>Services</h1>
                 <h5>Eco friendly cleaning services in Derby and Derbyshire</h5>
@@ -45,11 +45,11 @@ export class Services extends Component {
                     <div className="col-sm-4 servicesImage six">
                         <div class="servicesText">
                         <h5>Other Jobs</h5>
-                        <p id="waysOfWorking">We provide many other services so get in touch for a free quote</p>
+                        <p>We provide many other services so get in touch for a free quote</p>
                         </div>
                     </div>                    
                 </div>
-                        </div>
+                </div>
         )
     }
 }

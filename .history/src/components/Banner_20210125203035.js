@@ -14,7 +14,7 @@ export default function Banner() {
                         <p>
                             Using no water or chemicals. We provide effecient, green, ECO cleaning with less mess! 
                         </p>
-                    <Link to="/cleaning-services" id="ourServices" className="btn-services">07977256222</Link>
+                    <Link to="/cleaning-services" className="btn-services">07977256222</Link>
                     </div>
                     </div>
                 <div className="col-sm-6">

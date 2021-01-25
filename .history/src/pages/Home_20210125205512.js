@@ -2,10 +2,10 @@ import React from "react";
 import Hero from "../components/Hero";
 import Banner from "../components/Banner";
 import { Link } from "react-router-dom";
+import { Link, animateScroll as scroll } from "react-scroll";
 import Services from "../components/Services"
-// import Maps from "../components/Maps"
+import { HashLink as Link } from 'react-router-hash-link';
 import Footer from "../components/Footer";
-import WaysOfWorking from "../components/WaysOfWorking";
 
 export default function Home() {
   return (
@@ -18,7 +18,6 @@ export default function Home() {
       </Banner>
       </Hero>
       <Services />
-      <WaysOfWorking />
       {/* <Maps /> */}
       <Footer />
       </>

@@ -5,7 +5,6 @@ import { Link } from "react-router-dom";
 import Services from "../components/Services"
 // import Maps from "../components/Maps"
 import Footer from "../components/Footer";
-import WaysOfWorking from "../components/WaysOfWorking";
 
 export default function Home() {
   return (
@@ -18,7 +17,6 @@ export default function Home() {
       </Banner>
       </Hero>
       <Services />
-      <WaysOfWorking />
       {/* <Maps /> */}
       <Footer />
       </>

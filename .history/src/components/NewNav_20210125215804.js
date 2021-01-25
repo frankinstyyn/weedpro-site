@@ -77,7 +77,7 @@ export default class NewNav extends Component {
                             to="/#waysOfWorking"
                             spy={true}
                             smooth={true}
-                            offset={-200}
+                            offset={-70}
                             duration={5}
                         >
                             <Nav.Link href="/#waysOfWorking">Ways of Working</Nav.Link>

@@ -68,20 +68,11 @@ export default class NewNav extends Component {
                             spy={true}
                             smooth={true}
                             offset={-70}
-                            duration={5}
+                            duration={5000}
                         >
                             <Nav.Link id="nav-links" href="/#ourServices">Services</Nav.Link>
                         </Link>
-                    <Link
-                        activeClass="active"
-                            to="/#waysOfWorking"
-                            spy={true}
-                            smooth={true}
-                            offset={-200}
-                            duration={5}
-                        >
-                            <Nav.Link href="/#waysOfWorking">Ways of Working</Nav.Link>
-                            </Link>
+                    <Nav.Link href="/#waysOfWorking">Ways of Working</Nav.Link>
                     <Nav.Link href="/#completedWork">Completed Work</Nav.Link>
                     <Nav.Link href="/#equipment">Equipment</Nav.Link>
                     <Nav.Link href="/#about">About</Nav.Link>

@@ -6,14 +6,6 @@
   box-sizing: border-box;
   font-family: "Rubik", sans-serif;
 }
-
-html,
-body {
-  overflow-x: hidden;
-}
-body {
-  position: relative;
-}
 :root {
   --primaryColor: #464c80;
   --secondaryColor: #bbe554;
@@ -197,7 +189,7 @@ h6 {
 
 #navbar {
   overflow: hidden;
-  padding: 20px;
+  /* padding: 20px; */
   transition: 0.4s;
   position: fixed;
   display: flex;
@@ -213,7 +205,7 @@ h6 {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  margin: 0 auto;
+  /* margin: 0 auto; */
 }
 
 .nav-link {
@@ -221,7 +213,6 @@ h6 {
   font-size: 1.3rem;
   letter-spacing: 1px;
   margin: 1rem;
-  font-size: 1.1rem !important;
 }
 .nav-link:hover {
   color: var(--mainBlack) !important;
@@ -387,7 +378,8 @@ h6 {
 /* end of Title */
 
 /* services */
-
+.services {
+}
 .services {
   padding: 2rem 0 1.5rem;
   background: var(--darkGrey);
@@ -422,19 +414,22 @@ h6 {
   width: 80%;
   margin: 0 auto;
   font-size: 1.5rem;
-  transition: 6s;
+}
+
+.servicesHead {
+  padding: 1rem 0;
 }
 
 .underline {
   margin-bottom: 1.5rem;
   border-bottom: 5px solid var(--primaryColor);
   width: 35% !important;
-  padding-top: 2%;
+  padding-top: 5%;
   margin-bottom: 10%;
 }
 
 .services .underline {
-  margin-bottom: 4%;
+  margin-bottom: 7%;
 }
 
 .servicesImg {
@@ -641,7 +636,7 @@ h6 {
   margin-bottom: 20px;
   /* Underline Styling */
   text-decoration: 3px underline;
-  text-decoration-color: var(--secondaryColor);
+  text-decoration-color: var(--mainGrey);
   text-underline-offset: 10px;
 }
 .footer-social-icon a {
