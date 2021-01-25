@@ -379,9 +379,9 @@ h6 {
 
 /* services */
 .services {
+  padding: 1.5rem 0 1.5rem;
 }
 .services {
-  padding: 2rem 0 1.5rem;
   background: var(--darkGrey);
   text-align: center;
 }
@@ -419,13 +419,13 @@ h6 {
 .underline {
   margin-bottom: 1.5rem;
   border-bottom: 5px solid var(--primaryColor);
-  width: 35% !important;
+  width: 50% !important;
   padding-top: 5%;
   margin-bottom: 10%;
 }
 
 .services .underline {
-  margin-bottom: 7%;
+  margin-bottom: 10%;
 }
 
 .servicesImg {

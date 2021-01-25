@@ -379,9 +379,9 @@ h6 {
 
 /* services */
 .services {
+  padding: 1.5rem 0 1.5rem;
 }
 .services {
-  padding: 2rem 0 1.5rem;
   background: var(--darkGrey);
   text-align: center;
 }
@@ -407,8 +407,7 @@ h6 {
   padding-bottom: 0 !important;
 }
 .services h5 {
-  padding: 0 1rem;
-  font-size: 1.2rem;
+  padding: 0 0.5rem;
 }
 .services p {
   width: 80%;
@@ -419,13 +418,13 @@ h6 {
 .underline {
   margin-bottom: 1.5rem;
   border-bottom: 5px solid var(--primaryColor);
-  width: 35% !important;
-  padding-top: 5%;
+  width: 50% !important;
+  padding-top: 10%;
   margin-bottom: 10%;
 }
 
 .services .underline {
-  margin-bottom: 7%;
+  margin-bottom: 10%;
 }
 
 .servicesImg {
@@ -556,7 +555,7 @@ h6 {
 /* Footer */
 
 .footer-section {
-  background: var(--primaryColor);
+  background: rgb(27, 27, 27);
   position: relative;
   text-align: center;
 }
@@ -593,7 +592,7 @@ h6 {
   font-size: 15px;
 }
 .cta-text a {
-  color: var(--secondaryColor);
+  color: var(--mainGrey);
   font-size: 15px;
   text-decoration: underline;
   transition: 0.5s;
@@ -621,6 +620,7 @@ h6 {
 .footer-logo img {
   max-width: 200px;
   padding: 1rem;
+  background-color: rgba(255, 255, 255, 0.795);
   border-radius: 30px;
   margin-top: 2rem;
 }
@@ -638,7 +638,7 @@ h6 {
   margin-bottom: 20px;
   /* Underline Styling */
   text-decoration: 3px underline;
-  text-decoration-color: var(--mainGrey);
+  text-decoration-color: var(--primaryColor);
   text-underline-offset: 10px;
 }
 .footer-social-icon a {
@@ -674,7 +674,7 @@ h6 {
   text-align: center;
   /* Underline Styling */
   text-decoration: 3px underline;
-  text-decoration-color: var(--mainGrey);
+  text-decoration-color: var(--primaryColor);
   text-underline-offset: 25px;
 }
 .footer-widget ul li {
@@ -731,7 +731,7 @@ h6 {
   transition: 0.7s;
 }
 .copyright-text p a:hover {
-  color: var(--mainGrey);
+  color: var(--primaryColor);
   transition: 0.7s;
 }
 .footer-menu li {
@@ -739,7 +739,7 @@ h6 {
   margin-left: 20px;
 }
 .footer-menu li:hover a {
-  color: var(--mainGrey);
+  color: var(--primaryColor);
 }
 .footer-menu li a {
   font-size: 14px;

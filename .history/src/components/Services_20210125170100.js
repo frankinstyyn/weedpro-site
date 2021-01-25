@@ -5,8 +5,7 @@ export class Services extends Component {
         return (
             <div className="services">
                 <h1>Services</h1>
-                <h5>Eco friendly cleaning services in Derby and Derbyshire</h5>
-                <p className="underline"> </p>
+                <h5 className="underline">Eco friendly cleaning services in Derby and Derbyshire</h5>
             <div className="row">
                     <div className="col-sm-4 servicesImage one">
                         <div class="servicesText">

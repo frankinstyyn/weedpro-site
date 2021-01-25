@@ -5,8 +5,7 @@ export class Services extends Component {
         return (
             <div className="services">
                 <h1>Services</h1>
-                <h5>Eco friendly cleaning services in Derby and Derbyshire</h5>
-                <p className="underline"> </p>
+                <h5 className="underline">Eco friendly cleaning services in Derby and Derbyshire</h5>
             <div className="row">
                     <div className="col-sm-4 servicesImage one">
                         <div class="servicesText">
@@ -16,7 +15,7 @@ export class Services extends Component {
                 </div>
                     <div className="col-sm-4 servicesImage two">
                         <div class="servicesText">
-                        <h5>Guttering</h5>
+                        <h5>Guttering and Facias</h5>
                         <p>Using our unique high performance SkyVac equipment, we clear gutters with no mess in half the time</p>
                         </div>
                 </div>

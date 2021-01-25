@@ -22,7 +22,7 @@ const Footer = () => {
                         <div class="single-cta">
                             <div class="cta-text">
                                 <h4>Call Me</h4>
-                                  <span><a href="tel:07977256222">07977 256222</a> 
+                                  <span>Contact me on: <a href="tel:07977256222">07977 256222</a> 
                                 </span>
                             </div>
                         </div>
@@ -39,7 +39,7 @@ const Footer = () => {
             </div>
             <div class="footer-content pt-5 pb-5">
                 <div class="row">
-                    <div class="col-xl-6 col-lg-6 col-md-6 mb-30">
+                    <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
                         <div class="footer-widget">
                             <div class="footer-social-icon">
                                 <span>Social Links</span>
@@ -48,10 +48,23 @@ const Footer = () => {
                             </div>
                         </div>
                     </div>
-                      <div class="col-xl-6 col-lg-6 col-md-6 mb-30">
+                    <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                        <div class="footer-widget">
+                            <div class="footer-widget-heading">
+                                <h3>Useful Links</h3>
+                            </div>
+                            <ul>
+                                <li><a href="/">Home</a></li>
+                                <li><a href="cleaning-services">Services</a></li>
+                                <li><a href="golf">Link 3</a></li>
+                                <li><a href="contact">Contact</a></li>
+                            </ul>
+                        </div>
+                      </div>
+                      <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
                         <div class="footer-widget">
                               <div class="footer-logo">
-                                  <a href="/"><img src={logoTB} alt="Weed pro logo"></img></a>
+                                  <a href="/"><img src={logoTB} alt="Nigel James Consulting logo"></img></a>
                             </div>
                         </div>
                       </div>
