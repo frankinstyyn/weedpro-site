@@ -54,13 +54,13 @@ const Footer = () => {
                               <div class="footer-logo">
                                   <Link
                         activeClass="active"
-                            to="/#toTop"
+                            to="/#navbar"
                             spy={true}
                             smooth={true}
                             // offset={-70}
                             // duration={5}
                                   >
-                                      <a href="/#toTop"><img src={logoTB} alt="Weed pro logo"></img></a>
+                                      <a href="/#navbar"><img src={logoTB} alt="Weed pro logo"></img></a>
                             {/* <Nav.Link id="nav-links" href="/#ourServices">Services</Nav.Link> */}
                         </Link>
                             </div>

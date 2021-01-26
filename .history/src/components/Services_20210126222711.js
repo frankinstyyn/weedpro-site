@@ -45,7 +45,7 @@ export class Services extends Component {
                     <div className="col-sm-4 servicesImage six">
                         <div class="servicesText">
                         <h5>Cleaning</h5>
-                        <p>WeedPro UK are the only company in Derbyshire to offer the unique and powerful "Wash N Blow" cleaning system leaving Facia's, Soffit's and Guttering like new</p>
+                        <p>WeedPro UK are the only company in Derbyshire to offer the unique and powerful "Wash N Blow" cleaning system for Facia's, Soffit's and Guttering</p>
                         </div>
                     </div>                    
                 </div>
@@ -53,7 +53,7 @@ export class Services extends Component {
                     <div className="col-sm-4 servicesImage seven">
                         <div class="servicesText">
                             <h5>Other Jobs</h5>
-                            <p id="waysOfWorking">We provide many other outdoor services so get in touch for a free quote</p>
+                            <p id="waysOfWorking">We provide many other services so get in touch for a free quote</p>
                         </div>
                 </div>              
                 </div>

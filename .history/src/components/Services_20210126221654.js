@@ -30,30 +30,30 @@ export class Services extends Component {
                     </div>                    
                 </div>
                 <div className="row">
-                    <div className="col-sm-4 servicesImage five">
-                        <div class="servicesText">
-                        <h5>Windows</h5>
-                        <p>Using the "Wash N Blow" system, we use a pure water system followed by an airdry finish means a streak free window cleaning service offered only by WeedPro UK</p>
-                        </div>
-                    </div>
                     <div className="col-sm-4 servicesImage four">
                         <div class="servicesText">
                         <h5>Tarmac</h5>
                         <p>Our bespoke, high powered jet wash cleaning system will restore your tarmac and bring it back to life</p>
                         </div>
                 </div>
+                    <div className="col-sm-4 servicesImage five">
+                        <div class="servicesText">
+                        <h5>Windows</h5>
+                        <p>Using the "Wash N Blow" system, we use a pure water system followed by an airdry finish means a streak free window cleaning service offered only by WeedPro UK</p>
+                        </div>
+                </div>
                     <div className="col-sm-4 servicesImage six">
                         <div class="servicesText">
-                        <h5>Cleaning</h5>
-                        <p>WeedPro UK are the only company in Derbyshire to offer the unique and powerful "Wash N Blow" cleaning system leaving Facia's, Soffit's and Guttering like new</p>
+                        <h5>Other Jobs</h5>
+                        <p id="waysOfWorking">We provide many other services so get in touch for a free quote</p>
                         </div>
                     </div>                    
                 </div>
                 <div className="row">
                     <div className="col-sm-4 servicesImage seven">
                         <div class="servicesText">
-                            <h5>Other Jobs</h5>
-                            <p id="waysOfWorking">We provide many other outdoor services so get in touch for a free quote</p>
+                        <h5>Cleaning</h5>
+                        <p>The only company in Derbyshire to offer the unique "Wash N Blow" cleaning system for Facia's, Soffit's and Guttering</p>
                         </div>
                 </div>              
                 </div>

@@ -58,7 +58,7 @@ export default class NewNav extends Component {
     render() {
         return <div className="myContainer">
             <Navbar id="navbar" className="newNav" expand="lg">
-            <Navbar.Brand href="/#toTop"><img id="logo" src={logo} alt="Weed Pro UK"/></Navbar.Brand>
+            <Navbar.Brand href="/"><img id="logo" src={logo} alt="Weed Pro UK"/></Navbar.Brand>
             <Navbar.Toggle className="custom-toggler" aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="ml-auto">
