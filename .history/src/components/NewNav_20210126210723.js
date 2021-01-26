@@ -67,8 +67,8 @@ export default class NewNav extends Component {
                             to="/#ourServices"
                             spy={true}
                             smooth={true}
-                            // offset={-70}
-                            // duration={5}
+                            offset={-70}
+                            duration={5}
                         >
                             <Nav.Link id="nav-links" href="/#ourServices">Services</Nav.Link>
                         </Link>
@@ -76,8 +76,8 @@ export default class NewNav extends Component {
                             to="/#waysOfWorking"
                             spy={true}
                             smooth={true}
-                            // offset={-200}
-                            // duration={5}
+                            offset={-200}
+                            duration={5}
                         >
                             <Nav.Link href="/#waysOfWorking">Ways of Working</Nav.Link>
                             </Link>
@@ -85,11 +85,11 @@ export default class NewNav extends Component {
                             to="/#completedWork"
                             spy={true}
                             smooth={true}
-                            // offset={-200}
-                            // duration={5}
+                            offset={-200}
+                            duration={5}
                         >
                             <Nav.Link href="/#completedWork">Completed Work</Nav.Link>
-                        </Link>
+                            </Link>
                     <Nav.Link href="/#equipment">Equipment</Nav.Link>
                     <Nav.Link href="/#about">About</Nav.Link>
                 </Nav>

@@ -23,13 +23,14 @@ export class WaysOfWorking extends Component {
                             <img className="wowImage" src={initWork} alt="A westermann cleaner with a cleared pile of debris"/>
                             <p>Next the cleaning begins, using an environmentally friendly powerful Westermann cleaner, no water or nasty chemicals are needed. Half the mess, half the time, half the cost</p>
                     </div>
-                    <div className="col-sm-12 col-md-4">
+                    <div id="completedWork" className="col-sm-12 col-md-4">
                             <h5>Lasting Clean</h5>
                             <img className="wowImage" src={finalFinish} alt="A clean finish on block paving"/>
-                            <p>The cleaning is complete and we'll complete a final inspection of the area to ensure a high quality finish with 100% customer satisfaction<span id="completedWork"></span></p>
-                    </div>               
+                            <p>The cleaning is complete and we'll complete a final inspection of the area to ensure a high quality finish with 100% customer satisfaction</p>
                 </div>
-            </div>
+                                     
+                </div>
+                </div>
         )
     }
 }

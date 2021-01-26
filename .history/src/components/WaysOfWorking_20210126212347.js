@@ -26,7 +26,7 @@ export class WaysOfWorking extends Component {
                     <div className="col-sm-12 col-md-4">
                             <h5>Lasting Clean</h5>
                             <img className="wowImage" src={finalFinish} alt="A clean finish on block paving"/>
-                            <p>The cleaning is complete and we'll complete a final inspection of the area to ensure a high quality finish with 100% customer satisfaction<span id="completedWork"></span></p>
+                            <p>The cleaning is complete and we'll complete a final <span id="completedWork"></span>inspection of the area to ensure a high quality finish with 100% customer satisfaction</p>
                     </div>               
                 </div>
             </div>
