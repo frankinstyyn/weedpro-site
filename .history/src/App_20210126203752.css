@@ -373,9 +373,7 @@ h6 {
   font-size: 25px;
 }
 .workImage {
-  width: 100%;
-  border: 2px solid var(--primaryColor);
-  margin: 2% 0;
+  width: 32%;
 }
 @media screen and (min-width: 485px) {
   .banner {

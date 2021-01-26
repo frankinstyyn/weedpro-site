@@ -119,18 +119,17 @@ h6 {
   padding: 0.4rem 0.9rem;
   border: 1px solid var(--secondaryColor);
   transition: var(--mainTransition);
+  /* text-transform: uppercase; */
   cursor: pointer;
-  width: 90%;
+  width: 70%;
   font-size: 1rem;
   border-radius: 15px;
-  margin-bottom: 3%;
 }
 
 .btn-services:hover {
   background: var(--secondaryColor);
   color: var(--primaryColor);
   border: 1px solid var(--primaryColor);
-  text-decoration: none;
 }
 
 .btn-primary {
@@ -185,9 +184,9 @@ h6 {
 }
 
 .navShadow {
-  -webkit-box-shadow: 0px 5px 7px 0px rgba(204, 255, 0, 0.75);
-  -moz-box-shadow: 0px 5px 7px 0px rgba(204, 255, 0, 0.75);
-  box-shadow: 0px 5px 7px 0px rgba(204, 255, 0, 0.75);
+  -webkit-box-shadow: 0px 5px 7px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 5px 7px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 5px 7px 0px rgba(0, 0, 0, 0.75);
 }
 
 .newNav {
@@ -214,10 +213,6 @@ h6 {
 .myContainer {
   width: 80%;
 }
-
-#basic-navbar-nav a {
-  text-decoration: none;
-}
 .nav-header {
   display: flex;
   justify-content: space-between;
@@ -229,7 +224,7 @@ h6 {
   color: var(--mainWhite) !important;
   font-size: 1.3rem;
   letter-spacing: 1px;
-  margin: 1rem 0.5rem;
+  margin: 1rem;
   font-size: 1.1rem !important;
 }
 .nav-link:hover {
@@ -237,7 +232,6 @@ h6 {
   background-color: var(--secondaryColor);
   transition: 0.7s;
   border-radius: 8px;
-  text-decoration: none !important;
 }
 
 .navbar-light .navbar-toggler-icon {
@@ -285,7 +279,6 @@ h6 {
 .nav-links a:hover {
   color: var(--mainBlack);
   background: var(--secondaryColor);
-  text-decoration: none;
 }
 
 .show-nav {
@@ -360,22 +353,12 @@ h6 {
   font-family: "Alegreya Sans SC", sans-serif;
   font-style: italic;
   font-weight: 800;
-  margin-top: 15%;
+  margin-top: 25%;
 }
 .banner p {
   font-size: 1rem;
   margin-bottom: 2rem;
   margin-top: 1rem;
-}
-
-.bannerIcon {
-  padding: 0 3px;
-  font-size: 25px;
-}
-.workImage {
-  width: 100%;
-  border: 2px solid var(--primaryColor);
-  margin: 2% 0;
 }
 @media screen and (min-width: 485px) {
   .banner {
@@ -555,38 +538,13 @@ h6 {
   font-size: 2.5rem;
 }
 
-.services > .row,
-.services > .wowRow {
+.services > .row {
   justify-content: center;
 }
 
 .row p {
   color: var(--mainWhite);
   font-size: 1.2rem;
-}
-
-.wowRow {
-  display: flex;
-  flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
-}
-
-.wowContainer {
-  width: 60%;
-}
-
-.wowImage {
-  width: 70%;
-}
-.wowRow h5 {
-  font-size: 2.5rem;
-  color: var(--primaryColor);
-}
-.wowRow p {
-  color: var(--primaryColor);
-  font-size: 1rem;
-  padding: 10% 15%;
 }
 
 @media screen and (min-width: 320px) {
@@ -653,7 +611,6 @@ h6 {
   color: var(--mainWhite);
   font-size: 16px;
   transition: 0.5s;
-  text-decoration: none;
 }
 .footer-content {
   position: relative;
@@ -706,11 +663,10 @@ h6 {
 .email-bg svg {
   fill: var(--mainWhite);
 }
-.email-bg > svg:hover,
-.facebook-bg > svg:hover {
+.email-bg > svg:hover {
   fill: var(--mainBlack);
 }
-.facebook-bg svg {
+.linkedin-bg svg {
   fill: var(--mainWhite);
 }
 

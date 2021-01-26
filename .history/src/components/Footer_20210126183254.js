@@ -43,7 +43,7 @@ const Footer = () => {
                         <div class="footer-widget">
                             <div class="footer-social-icon">
                                 <span>Social Links</span>
-                                <a href="#" className="facebook-bg"><FaFacebook /></a>
+                                <a href="#" className="linkedin-bg"><FaFacebook /></a>
                                 <a href="mailto:simon@weedpro-uk.com" className="email-bg"><FaEnvelope /></a>
                             </div>
                         </div>

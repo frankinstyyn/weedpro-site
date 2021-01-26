@@ -367,16 +367,6 @@ h6 {
   margin-bottom: 2rem;
   margin-top: 1rem;
 }
-
-.bannerIcon {
-  padding: 0 3px;
-  font-size: 25px;
-}
-.workImage {
-  width: 100%;
-  border: 2px solid var(--primaryColor);
-  margin: 2% 0;
-}
 @media screen and (min-width: 485px) {
   .banner {
     padding: 2rem 3rem;

@@ -1,8 +1,9 @@
 import React from 'react'
+// import { Link } from "react-router-dom"
 import ContactForm from "./ContactForm"
+import { FaEnvelope } from 'react-icons/fa'
 import { SiMinutemailer } from 'react-icons/si'
 import { AiOutlinePhone } from 'react-icons/ai'
-import { FiFacebook } from 'react-icons/fi'
 
 export default function Banner() {
     return (
@@ -17,9 +18,9 @@ export default function Banner() {
                             Using no water or chemicals. We provide effecient, green, ECO cleaning with less mess as well as traditional jet washing methods
                         </p>
                         <div class="ctas">
-                            <span><a href="tel:07977256222" id="ourServices" className="btn-services"><span className="bannerIcon"><AiOutlinePhone /></span>- 07977 256222</a></span>
-                            <span><a href="mailto:simon@weedpro-uk.com" id="ourServices" className="btn-services"><span className="bannerIcon"><SiMinutemailer /></span>- simon@weedpro-uk.com</a></span>
-                            <span><a href="https://www.facebook.com/Weedpro-Ukcom-100145041372858/" id="ourServices" className="btn-services"><span className="bannerIcon"><FiFacebook /></span>- Weedpro-uk.com</a></span>
+                            <span><a href="tel:07977256222" id="ourServices" className="btn-services"><AiOutlinePhone />07977 256222</a></span>
+                            <span><a href="mailto:simon@weedpro-uk.com" id="ourServices" className="btn-services"><SiMinutemailer />simon@weedpro-uk.com</a></span>
+                            <span><a href="https://www.facebook.com/Weedpro-Ukcom-100145041372858/" id="ourServices" className="btn-services">Weedpro-uk.com</a></span>
                             </div>
                     </div>
                     </div>

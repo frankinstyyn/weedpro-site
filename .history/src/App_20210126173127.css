@@ -120,7 +120,7 @@ h6 {
   border: 1px solid var(--secondaryColor);
   transition: var(--mainTransition);
   cursor: pointer;
-  width: 90%;
+  width: 70%;
   font-size: 1rem;
   border-radius: 15px;
   margin-bottom: 3%;
@@ -130,7 +130,6 @@ h6 {
   background: var(--secondaryColor);
   color: var(--primaryColor);
   border: 1px solid var(--primaryColor);
-  text-decoration: none;
 }
 
 .btn-primary {
@@ -214,10 +213,6 @@ h6 {
 .myContainer {
   width: 80%;
 }
-
-#basic-navbar-nav a {
-  text-decoration: none;
-}
 .nav-header {
   display: flex;
   justify-content: space-between;
@@ -237,7 +232,6 @@ h6 {
   background-color: var(--secondaryColor);
   transition: 0.7s;
   border-radius: 8px;
-  text-decoration: none !important;
 }
 
 .navbar-light .navbar-toggler-icon {
@@ -285,7 +279,6 @@ h6 {
 .nav-links a:hover {
   color: var(--mainBlack);
   background: var(--secondaryColor);
-  text-decoration: none;
 }
 
 .show-nav {
@@ -360,22 +353,12 @@ h6 {
   font-family: "Alegreya Sans SC", sans-serif;
   font-style: italic;
   font-weight: 800;
-  margin-top: 15%;
+  margin-top: 25%;
 }
 .banner p {
   font-size: 1rem;
   margin-bottom: 2rem;
   margin-top: 1rem;
-}
-
-.bannerIcon {
-  padding: 0 3px;
-  font-size: 25px;
-}
-.workImage {
-  width: 100%;
-  border: 2px solid var(--primaryColor);
-  margin: 2% 0;
 }
 @media screen and (min-width: 485px) {
   .banner {
@@ -582,6 +565,7 @@ h6 {
 .wowRow h5 {
   font-size: 2.5rem;
   color: var(--primaryColor);
+  outline: var(--secondaryColor);
 }
 .wowRow p {
   color: var(--primaryColor);
@@ -653,7 +637,6 @@ h6 {
   color: var(--mainWhite);
   font-size: 16px;
   transition: 0.5s;
-  text-decoration: none;
 }
 .footer-content {
   position: relative;
@@ -706,11 +689,10 @@ h6 {
 .email-bg svg {
   fill: var(--mainWhite);
 }
-.email-bg > svg:hover,
-.facebook-bg > svg:hover {
+.email-bg > svg:hover {
   fill: var(--mainBlack);
 }
-.facebook-bg svg {
+.linkedin-bg svg {
   fill: var(--mainWhite);
 }
 
