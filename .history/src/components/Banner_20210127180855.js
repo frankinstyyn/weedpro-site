@@ -10,7 +10,7 @@ export default function Banner() {
             <div className="row">
                 <div className="col-sm-6">
                 <div>
-                        <h1 className="headerRed">
+                    <h1 style="color:red;">
                         Unique professional Outdoor Cleaning in Derbyshire and Nottinghamshire
                     </h1>
                         <p>

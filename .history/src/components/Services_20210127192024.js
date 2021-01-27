@@ -39,7 +39,7 @@ export class Services extends Component {
                     <div className="col-sm-4 servicesImage four">
                         <div class="servicesText">
                         <h5>Tarmac</h5>
-                        <p>Our Eco friendly Westermann cleaner avoids the use of nasty chemicals or water, leaving a sharp clean finish with less mess</p>
+                        <p></p>
                         </div>
                 </div>
                     <div className="col-sm-4 servicesImage six">

@@ -24,8 +24,8 @@ export class Services extends Component {
                 </div>
                     <div className="col-sm-4 servicesImage three">
                         <div class="servicesText">
-                            <h5>Patios</h5>
-                            <p>Our bespoke, high powered jet wash cleaning system will restore your tarmac and bring it back to life</p>
+                        <h5>Patios</h5>
+                        <p>Our Eco friendly Westermann cleaner avoids the use of nasty chemicals or water, leaving a sharp clean finish with less mess</p>
                         </div>
                     </div>                    
                 </div>
@@ -39,13 +39,13 @@ export class Services extends Component {
                     <div className="col-sm-4 servicesImage four">
                         <div class="servicesText">
                         <h5>Tarmac</h5>
-                        <p>Our Eco friendly Westermann cleaner avoids the use of nasty chemicals or water, leaving a sharp clean finish with less mess</p>
+                        <p>Our bespoke, high powered jet wash cleaning system will restore your tarmac and bring it back to life</p>
                         </div>
                 </div>
                     <div className="col-sm-4 servicesImage six">
                         <div class="servicesText">
                         <h5>Cleaning</h5>
-                        <p>WeedPro UK are the only company in Derbyshire to offer the unique and powerful "Wash N Blow" cleaning system leaving Fascia's, Soffit's, Window's and Guttering like new</p>
+                        <p>WeedPro UK are the only company in Derbyshire to offer the unique and powerful "Wash N Blow" cleaning system leaving Fascia's, Soffit's and Guttering like new</p>
                         </div>
                     </div>                    
                 </div>

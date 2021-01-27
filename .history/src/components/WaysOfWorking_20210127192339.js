@@ -16,17 +16,17 @@ export class WaysOfWorking extends Component {
                     <div className="col-sm-12 col-md-4">
                             <h5>Job Preparation</h5>
                             <img className="wowImage" src={prepWork} alt="A pile of debris for the preperation work for the job"/>
-                            <p>We complete a thorough inspection of the area to be cleaned, and then using our dry Westermann weed/moss brush on a light setting, we pull out any visible moss/weeds. Doing it this way, ensures an environmentally friendly method of cleaning, resulting in: Half the mess, Half the time and more importantly, HALF THE COST!</p>
+                            <p>We complete a thorough inspection of the work area, the start the initial top layer clean before choosing the correct equipment to finish the job with a deep, lasting clean</p>
                     </div>
                     <div className="col-sm-12 col-md-4">
                             <h5>Deep Clean</h5>
                             <img className="wowImage" src={initWork} alt="A westermann cleaner with a cleared pile of debris"/>
-                            <p>Next the cleaning begins! Dependant then on the amount of infestation, we either use the Westermann machine on a medium/heavy setting, or, use our bespoke “specially developed” Rotary jet wash machine to remove any remaining residue.</p>
+                            <p>Next the cleaning begins, using an environmentally friendly powerful Westermann cleaner, no water or nasty chemicals are needed. Half the mess, half the time, half the cost</p>
                     </div>
                     <div className="col-sm-12 col-md-4">
                             <h5>Lasting Clean</h5>
                             <img className="wowImage" src={finalFinish} alt="A clean finish on block paving"/>
-                            <p>The cleaning is complete and we'll complete a final inspection of the area to ensure a high quality finish with 100% customer satisfaction. We will also resand, where necessary, at no additional cost!<span id="completedWork"></span></p>
+                            <p>The cleaning is complete and we'll complete a final inspection of the area to ensure a high quality finish with 100% customer satisfaction<span id="completedWork"></span></p>
                     </div>               
                 </div>
             </div>
