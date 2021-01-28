@@ -57,7 +57,7 @@ export default class NewNav extends Component {
     }
     render() {
         return <div className="myContainer">
-            <Navbar id="navbar" className="newNav" expand="lg">
+            <Navbar collapseOnSelect id="navbar" className="newNav" expand="lg">
             <Navbar.Brand href="/#toTop"><img id="logo" src={logo} alt="Weed Pro UK"/></Navbar.Brand>
             <Navbar.Toggle className="custom-toggler" aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
@@ -67,17 +67,13 @@ export default class NewNav extends Component {
                             to="/#ourServices"
                             spy={true}
                             smooth={true}
-                            // offset={-70}
-                            // duration={5}
                         >
-                            <Nav.Link id="nav-links" href="/#ourServices">Services</Nav.Link>
+                            <Nav.Link eventKey="1" as={Link} id="nav-links" to="/#ourServices">Services</Nav.Link>
                         </Link>
                     <Link
                             to="/#waysOfWorking"
                             spy={true}
                             smooth={true}
-                            // offset={-200}
-                            // duration={5}
                         >
                             <Nav.Link href="/#waysOfWorking">Ways of Working</Nav.Link>
                             </Link>
@@ -85,8 +81,6 @@ export default class NewNav extends Component {
                             to="/#completedWork"
                             spy={true}
                             smooth={true}
-                            // offset={-200}
-                            // duration={5}
                         >
                             <Nav.Link href="/#completedWork">Completed Work</Nav.Link>
                         </Link>

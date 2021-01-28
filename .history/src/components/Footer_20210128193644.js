@@ -44,8 +44,8 @@ const Footer = () => {
                         <div class="footer-widget">
                             <div class="footer-social-icon">
                                 <span>Social Links</span>
-                                <a href="https://www.facebook.com/Weedpro-Ukcom-100145041372858/" className="facebook-bg" target="_blank"><FaFacebook /></a>
-                                <a href="https://www.instagram.com/weedprouk/" className="insta-bg" target="_blank"><FaInstagram /></a>
+                                <a href="https://www.facebook.com/Weedpro-Ukcom-100145041372858/" className="facebook-bg"><FaFacebook /></a>
+                                <a href="https://www.facebook.com/Weedpro-Ukcom-100145041372858/" className="insta-bg"><FaInstagram /></a>
                                 <a href="mailto:simon@weedpro-uk.com" className="email-bg"><FaEnvelope /></a>
                             </div>
                         </div>
@@ -71,7 +71,7 @@ const Footer = () => {
                 <div class="row">
                     <div class="col-xl-12 col-lg-12 text-center text-lg-center">
                         <div class="copyright-text">
-                            <p>Created by <a href="https://frankinstyyn.co.uk" target="_blank">FrankinstyynWeb</a> &copy;{new Date().getFullYear()} | All Right Reserved </p>
+                            <p>Created by <a href="https://frankinstyyn.co.uk">FrankinstyynWeb</a> &copy;{new Date().getFullYear()} | All Right Reserved </p>
                         </div>
                     </div>
                 </div>

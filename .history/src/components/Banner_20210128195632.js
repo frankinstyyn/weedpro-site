@@ -2,7 +2,7 @@ import React from 'react'
 import ContactForm from "./ContactForm"
 import { SiMinutemailer } from 'react-icons/si'
 import { AiOutlinePhone } from 'react-icons/ai'
-import { FiFacebook, FiInstagram } from 'react-icons/fi'
+import { FiFacebook } from 'react-icons/fi'
 
 export default function Banner() {
     return (
@@ -19,8 +19,9 @@ export default function Banner() {
                         <div class="ctas">
                             <span><a href="tel:07977256222" id="ourServices" className="btn-services"><span className="bannerIcon"><AiOutlinePhone /></span>- 07977 256222</a></span>
                             <span><a href="mailto:simon@weedpro-uk.com" id="ourServices" className="btn-services"><span className="bannerIcon"><SiMinutemailer /></span>- simon@weedpro-uk.com</a></span>
-                                    <span><a href="https://www.facebook.com/Weedpro-Ukcom-100145041372858/" className="btn-services" target="_blank"><span className="bannerIcon"><FiFacebook /></span>- Weedpro-uk.com</a></span>
-                                    <span><a href="https://www.instagram.com/weedprouk/" id="ourServices" className="btn-services" target="_blank"><span className="bannerIcon"><FiInstagram /></span>- Weedprouk</a></span>
+                                <div>
+                                    <span><a href="https://www.facebook.com/Weedpro-Ukcom-100145041372858/" id="ourServices" className="btn-services"><span className="bannerIcon"><FiFacebook /></span>- Weedpro-uk.com</a></span>
+                                </div>
                             </div>
                     </div>
                     </div>

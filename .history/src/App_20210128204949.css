@@ -746,12 +746,6 @@ h6 {
 .facebook-bg svg {
   fill: var(--mainWhite);
 }
-.insta-bg svg {
-  fill: var(--mainWhite);
-}
-.insta-bg > svg:hover {
-  fill: var(--mainBlack);
-}
 
 .footer-widget-heading h3 {
   color: #fff;

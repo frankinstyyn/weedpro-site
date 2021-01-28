@@ -542,8 +542,7 @@ h6 {
   background-repeat: no-repeat;
 }
 .six {
-  background: linear-gradient(var(--whiteOverlay)),
-    url("./images/cleaningNew.jpg");
+  background: linear-gradient(var(--whiteOverlay)), url("./images/washing.png");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -634,7 +633,7 @@ h6 {
   border: 1px solid var(--secondaryColor);
   transition: var(--mainTransition);
   cursor: pointer;
-  width: 100%;
+  width: 110%;
   font-size: 1rem;
   border-radius: 15px;
   margin-bottom: 3%;
@@ -745,12 +744,6 @@ h6 {
 }
 .facebook-bg svg {
   fill: var(--mainWhite);
-}
-.insta-bg svg {
-  fill: var(--mainWhite);
-}
-.insta-bg > svg:hover {
-  fill: var(--mainBlack);
 }
 
 .footer-widget-heading h3 {

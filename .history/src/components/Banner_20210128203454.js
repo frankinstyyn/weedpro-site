@@ -19,8 +19,14 @@ export default function Banner() {
                         <div class="ctas">
                             <span><a href="tel:07977256222" id="ourServices" className="btn-services"><span className="bannerIcon"><AiOutlinePhone /></span>- 07977 256222</a></span>
                             <span><a href="mailto:simon@weedpro-uk.com" id="ourServices" className="btn-services"><span className="bannerIcon"><SiMinutemailer /></span>- simon@weedpro-uk.com</a></span>
-                                    <span><a href="https://www.facebook.com/Weedpro-Ukcom-100145041372858/" className="btn-services" target="_blank"><span className="bannerIcon"><FiFacebook /></span>- Weedpro-uk.com</a></span>
+                            <div className="row">
+                                <div class="col-sm-12">
+                                    <span><a href="https://www.facebook.com/Weedpro-Ukcom-100145041372858/" className="fb-btn-services" target="_blank"><span className="bannerIcon"><FiFacebook /></span>- Weedpro-uk.com</a></span>
+                                </div>
+                                <div class="col-sm-12">
                                     <span><a href="https://www.instagram.com/weedprouk/" id="ourServices" className="btn-services" target="_blank"><span className="bannerIcon"><FiInstagram /></span>- Weedprouk</a></span>
+                                    </div>
+                                </div>
                             </div>
                     </div>
                     </div>
