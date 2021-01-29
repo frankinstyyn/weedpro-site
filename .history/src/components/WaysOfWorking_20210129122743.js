@@ -16,7 +16,7 @@ export class WaysOfWorking extends Component {
                     <div className="col-sm-12 col-md-4">
                             <h5>Preparation</h5>
                             <img className="wowImage" src={prepWork} alt="A pile of debris for the preperation work for the job"/>
-                            <p>We complete a thorough inspection of the area to be cleaned, and then using our dry Westermann weed/moss brush on a light setting, we pull out any visible moss/weeds. Doing it this way, ensures an environmentally friendly method of cleaning, resulting in: HALF THE MESS, HALF THE TIME, and more importantly, HALF THE COST!</p>
+                            <p>We complete a thorough inspection of the area to be cleaned, and then using our dry Westermann weed/moss brush on a light setting, we pull out any visible moss/weeds. Doing it this way, ensures an environmentally friendly method of cleaning, resulting in: Half the mess, Half the time and more importantly, HALF THE COST!</p>
                     </div>
                     <div className="col-sm-12 col-md-4">
                             <h5>Deep Clean</h5>

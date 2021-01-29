@@ -33,7 +33,7 @@ export class Services extends Component {
                     <div className="col-sm-4 servicesImage five">
                         <div class="servicesText">
                         <h5>Windows</h5>
-                        <p>Using the “Wash N Blow” system, we use pure water followed by a warm blow dry finish, resulting in streak free windows, and completely dry frames. This service is currently only offered by Weedpro UK</p>
+                        <p>Using the “Wash N Blow” system, we use pure water followed by an airdry finish, resulting in streak free windows, and completely dry frames. This service is currently only offered by Weedpro UK</p>
                         </div>
                     </div>
                     <div className="col-sm-4 servicesImage four">
