@@ -6,7 +6,7 @@ export class Services extends Component {
             <div className="services">
                 <div class="servicesHead">
                 <h1>Services</h1>
-                <h5>Eco-friendly cleaning services in Derby and Derbyshire</h5>
+                <h5>Eco-Friendly cleaning services in Derbyshire and Nottinghamshire</h5>
                     <p className="underline"> </p>
                     </div>
             <div className="row">
