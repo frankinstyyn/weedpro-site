@@ -20,7 +20,7 @@ export default function ContactForm() {
     function myPopUp() {
         document.getElementById('popUp').setAttribute("class", "msgAppear");
         document.getElementById('closePopUp').setAttribute("class", "closeMsg svg")
-        document.getElementsByClassName('msg')[0].focus()
+        document.getElementsByClassName('msg').focus()
     }
     // This closes the pop up using the SVG
     function closePopUp() {

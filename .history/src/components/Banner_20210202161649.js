@@ -29,10 +29,8 @@ export default function Banner() {
                         <ContactForm />
                     </div>
                 </div>
-                        <div id="comRes">
-                            <h1>
-                                Domestic and Commercial work undertaken
-                    </h1>
+                <div class="headerRed">
+                    Domestic and Commercial work undertaken
                 </div>
             </div> 
         </div>

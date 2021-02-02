@@ -144,17 +144,10 @@ h6 {
 .headerRed form {
   transition: 2s;
 }
-#comRes {
-  width: 100%;
-}
-#comRes h1 {
+.col-sm-12 .comRes h1 {
   color: red;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
     1px 1px 0 #000;
-  padding: 0;
-  text-align: center;
-  margin-top: 4%;
-  font-size: 3rem;
 }
 .formBtn {
   width: 65%;

@@ -16,6 +16,7 @@ export default function Home() {
           Services
       </Link>
         </Banner>
+        <div>Here</div>
       </Hero>
       <Services />
       <WaysOfWorking />

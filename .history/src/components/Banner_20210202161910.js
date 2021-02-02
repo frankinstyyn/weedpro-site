@@ -29,10 +29,14 @@ export default function Banner() {
                         <ContactForm />
                     </div>
                 </div>
-                        <div id="comRes">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="comRes">
                             <h1>
                                 Domestic and Commercial work undertaken
                     </h1>
+                </div>
+                    </div>
                 </div>
             </div> 
         </div>
