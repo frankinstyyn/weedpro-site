@@ -6,6 +6,7 @@ import Services from "../components/Services"
 import Footer from "../components/Footer";
 import WaysOfWorking from "../components/WaysOfWorking";
 import CompletedWork from "../components/CompletedWork"
+import Equipment from "../components/Equipment";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <Services />
       <WaysOfWorking />
       <CompletedWork />
+      <Equipment />
       <Footer />
       </>
   );

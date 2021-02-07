@@ -49,11 +49,12 @@ export class CompletedWork extends Component {
       <img className="workImage" src={work8} alt="A pile of debris for the preperation work for the job"/>
     </div>
     <div class="col-sm-12 col-md-4">
-      <img className="workImage" src={work9} alt="A pile of debris for the preperation work for the job"/>
-    </div>
-  </div>
-</div>
+      <img className="workImage" src={work9} id="equipment" alt="A pile of debris for the preperation work for the job"/>
                 </div>
+              </div>
+            </div>
+          </div>
+          
         )
     }
 }

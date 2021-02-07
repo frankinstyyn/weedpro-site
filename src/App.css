@@ -108,7 +108,7 @@ h6 {
 
 .bannerForm {
   margin-top: 8%;
-  padding-top: 10%;
+  padding-top: 4.4rem;
 }
 .bannerForm form {
   width: 100%;
@@ -170,6 +170,7 @@ h6 {
   outline: none;
   transition: 0.5s ease-in-out;
   padding: 2%;
+  margin: 2.5%;
 }
 .formBtn button:hover {
   background-color: var(--primaryColor);
@@ -470,10 +471,9 @@ h6 {
   align-items: center;
   justify-content: center;
   padding: 0;
-  background: linear-gradient(var(--whiteOverlay)),
-    url("./images/servicesMain.jpg");
+  background: linear-gradient(var(--whiteOverlay)), url("./images/working.JPG");
   background-size: cover;
-  background-position: center center;
+  background-position: left;
   background-repeat: no-repeat;
   min-width: 100%;
   height: auto;
@@ -752,7 +752,14 @@ h6 {
   }
 }
 /*end of services */
+.equipImage {
+  width: 95%;
+}
 
+.equipRow .equipHead {
+  font-size: 1.5rem;
+  margin: 6%;
+}
 .smaller {
   height: 60px !important;
   transition: 0.5s;
