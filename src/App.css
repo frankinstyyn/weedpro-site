@@ -688,7 +688,7 @@ h6 {
 }
 .seven {
   background: linear-gradient(var(--whiteOverlay)),
-    url("./images/defaultBcg.jpg");
+    url("./images/otherJobs.JPG");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -752,6 +752,56 @@ h6 {
   }
 }
 /*end of services */
+/* About Code  */
+.aboutRow {
+  margin-top: 10%;
+}
+.aboutHead {
+  margin-top: 3.5rem;
+  text-align: center;
+}
+.aboutContainer {
+  width: 80%;
+  margin: 0 auto;
+}
+.aboutContainer img {
+  width: 75%;
+  display: block;
+  margin: 0 auto;
+}
+.aboutUnderline {
+  margin-bottom: 1.5rem;
+  border-bottom: 5px solid var(--primaryColor);
+  width: 35% !important;
+  padding-top: 2%;
+  margin-left: 33%;
+}
+.aboutImg {
+  width: 70%;
+  /* margin-top: 10%;
+  padding: 5%; */
+}
+#aboutStory {
+  color: var(--primaryColor);
+  font-size: 1.1rem;
+  text-align: center;
+  line-height: 1.3;
+}
+/* Mobile About Code */
+@media only screen and (min-device-width: 375px) and (max-device-width: 900px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .row {
+    margin-top: 20%;
+  }
+  /* .aboutMobileHead {
+  }
+  .aboutImgMobile {
+    margin-top: 50%;
+  }
+  .aboutRowMobile {
+    margin-top: 30%;
+  } */
+}
+/* End of About Code */
 .equipImage {
   width: 95%;
 }

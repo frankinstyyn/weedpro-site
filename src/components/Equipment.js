@@ -25,7 +25,7 @@ export class Equipment extends Component {
                 </div>
                 <div className="row equipRow">
                     <div className="col-sm-12 col-md-4">
-                        <h5 className="equipHead">Westermann Moss/Weed Brush</h5>
+                        <h5 className="equipHead">Westermann Moss/Weed <br/> Brush</h5>
                             <img className="equipImage" src={Westermann} alt="A pile of debris for the preperation work for the job"/>
                     </div>
                     <div className="col-sm-12 col-md-4">
@@ -43,11 +43,11 @@ export class Equipment extends Component {
                             <img className="equipImage" src={Rotary} alt="A pile of debris for the preperation work for the job"/>
                     </div>
                     <div className="col-sm-12 col-md-4">
-                            <h5 className="equipHead">Qleen Pure Water Resin Filter System</h5>
+                            <h5 className="equipHead">Qleen Pure Water Resin Filter <br/> System</h5>
                             <img className="equipImage" src={Qleen} alt="A westermann cleaner with a cleared pile of debris"/>
                     </div>
                     <div className="col-sm-12 col-md-4">
-                            <h5 className="equipHead">Qleen Fascia + Soffit Brush</h5>
+                            <h5 className="equipHead">Qleen Fascia + Soffit <br/> Brush</h5>
                             <img className="equipImage" src={SkyBrush} id="equipment" alt="A clean finish on block paving"/>
                     </div>               
                 </div>
