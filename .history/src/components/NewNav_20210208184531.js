@@ -60,7 +60,7 @@ export default class NewNav extends Component {
             <Navbar collapseOnSelect id="navbar" className="newNav" expand="lg">
                         <Link
                             activeClass="active"
-                            to="/#totop"
+                            to="/#logo"
                             spy={true}
                             smooth={true}
                         >
