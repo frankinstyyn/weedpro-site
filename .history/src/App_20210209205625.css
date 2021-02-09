@@ -462,7 +462,8 @@ h6 {
 }
 /* end of navbar */
 /* Hero */
-.defaultHero {
+.defaultHero,
+.servicesHero {
   height: calc(200vh);
   display: flex;
   align-items: center;
@@ -475,7 +476,6 @@ h6 {
   background-repeat: no-repeat;
   overflow: hidden;
   height: auto;
-  background-attachment: fixed;
 }
 /* End of Hero */
 /* Banner */
@@ -512,9 +512,21 @@ h6 {
   border: 2px solid var(--primaryColor);
   margin: 2% 0;
 }
-@media screen and (min-width: 320px) and (max-width: 600px) {
+@media screen and (min-width: 320px) {
   .defaultHero {
-    background: url("./images/simonWestermannSmaller.jpg");
+    content: "";
+    display: block;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    /* z-index: -10; */
+    background: url("./images/simonWestermann.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
 }
 @media screen and (min-width: 485px) {

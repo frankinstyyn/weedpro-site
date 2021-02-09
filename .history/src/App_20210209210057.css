@@ -514,7 +514,7 @@ h6 {
 }
 @media screen and (min-width: 320px) and (max-width: 600px) {
   .defaultHero {
-    background: url("./images/simonWestermannSmaller.jpg");
+    background: url("./images/simonWestermann.jpg");
   }
 }
 @media screen and (min-width: 485px) {
