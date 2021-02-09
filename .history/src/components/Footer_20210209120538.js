@@ -55,7 +55,7 @@ const Footer = () => {
                               <div class="footer-logo">
                                   <Link
                         activeClass="active"
-                            to="/#totop"
+                            to="/#toTop"
                             spy={true}
                             smooth={true}
                                   >
