@@ -1,6 +1,6 @@
 import "./App.css";
 import Home from "./pages/Home";
-import AboutUs from "./pages/AboutUs"
+import About from "./pages/AboutUs"
 import Error from "./pages/Error";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -14,8 +14,8 @@ function App() {
       <NewNav />
       <Switch>
         <Route exact path="/" component={Home} />
-        <Route exact path="/about-us" component={AboutUs} />
-        <Route exact path="/about-us/:slug" component={AboutUs} />
+        <Route exact path="/about-us" component={About} />
+        <Route exact path="/about-us/:slug" component={About} />
         <Route component={Error} />
       </Switch>
     </>

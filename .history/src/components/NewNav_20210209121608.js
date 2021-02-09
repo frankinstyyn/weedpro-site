@@ -98,14 +98,7 @@ export default class NewNav extends Component {
                         >
                             <Nav.Link href="/#equipment">Equipment</Nav.Link>
                         </Link>
-                        <Link
-                            to="/about-us"
-                            spy={true}
-                            smooth={true}
-                        >
-                            <Nav.Link href="/about-us">About</Nav.Link>
-                        </Link>
-                    
+                    <Nav.Link href="/about-us">About</Nav.Link>
                 </Nav>
 
                     </Navbar.Collapse>
