@@ -57,7 +57,7 @@ export default class NewNav extends Component {
     }
     render() {
         return <div className="myContainer">
-            <Navbar collapseOnSelect id="navbar" className="newNav" expand="xl">
+            <Navbar collapseOnSelect id="navbar" className="newNav" expand="md">
                         <Link
                             activeClass="active"
                             to="/#totop"

@@ -439,7 +439,7 @@ h6 {
   transition: 2s ease;
 }
 
-@media screen and (min-width: 1028px) {
+@media screen and (min-width: 1000px) {
   .nav-btn {
     display: flex;
     /* padding-left: 50%; */
@@ -746,7 +746,7 @@ h6 {
 /*end of services */
 /* About Code  */
 .aboutRow {
-  margin-top: 16%;
+  margin-top: 10%;
 }
 .aboutHead {
   margin-top: 3.5rem;
