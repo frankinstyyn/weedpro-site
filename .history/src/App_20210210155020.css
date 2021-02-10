@@ -529,9 +529,6 @@ h6 {
     background-position: center center;
     background-repeat: no-repeat !important;
   }
-  .equipRow {
-    margin-top: 0 !important;
-  }
 }
 @media screen and (min-width: 485px) {
   .banner {

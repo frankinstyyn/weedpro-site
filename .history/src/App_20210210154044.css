@@ -523,14 +523,11 @@ h6 {
     height: auto;
   }
   .equipImgContainer {
-    height: 20rem !important;
+    /* height: 60rem; */
     background: url("./images/equipment/mainequipMobile.jpg") !important;
-    background-size: contain !important;
+    background-size: contain;
     background-position: center center;
-    background-repeat: no-repeat !important;
-  }
-  .equipRow {
-    margin-top: 0 !important;
+    background-repeat: no-repeat;
   }
 }
 @media screen and (min-width: 485px) {
@@ -805,6 +802,14 @@ h6 {
   .row {
     margin-top: 20%;
   }
+  /* .aboutMobileHead {
+  }
+  .aboutImgMobile {
+    margin-top: 50%;
+  }
+  .aboutRowMobile {
+    margin-top: 30%;
+  } */
 }
 /* End of About Code */
 .equipImage {
