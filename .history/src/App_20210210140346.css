@@ -810,14 +810,8 @@ h6 {
 .equipImage {
   width: 95%;
 }
-.equipImgContainer {
-  height: 500px;
-  background: url("./images/equipment/mainequip.jpg");
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-}
 .simonEquip {
+  background-image: url("./images/equipment/mainequip.jpg");
 }
 
 .equipRow .equipHead {

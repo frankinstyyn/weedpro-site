@@ -20,9 +20,7 @@ export class Equipment extends Component {
                 </div>
                 <div class="row half">
                     <div class="col-sm-12">
-                        <div className="equipImgContainer">
-                            <img className="simonEquip" alt="Simon with the cleaning equipment"/>
-                        </div>
+                        <img className="simonEquip" alt="Simon with the cleaning equipment"/>
                     </div>
                 </div>
                 <div className="row equipRow">

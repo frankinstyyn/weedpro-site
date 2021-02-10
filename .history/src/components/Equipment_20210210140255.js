@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
-// import AllEquipment from '../images/equipment/mainequip.JPG'
+import AllEquipment from '../images/equipment/mainequip.JPG'
 import Westermann from '../images/equipment/westermann1.JPG'
-import Westermann2 from '../images/equipment/wire.jpg'
+import Westermann2 from '../images/equipment/wire.JPG'
 import SkyVac from '../images/equipment/skyvac.JPG'
 import Rotary from '../images/equipment/jet.JPG'
 import Qleen from '../images/equipment/qleen.JPG'
@@ -20,9 +20,7 @@ export class Equipment extends Component {
                 </div>
                 <div class="row half">
                     <div class="col-sm-12">
-                        <div className="equipImgContainer">
-                            <img className="simonEquip" alt="Simon with the cleaning equipment"/>
-                        </div>
+                        <img className="equipImage simonEquip" src={AllEquipment} alt="Simon with the cleaning equipment"/>
                     </div>
                 </div>
                 <div className="row equipRow">
