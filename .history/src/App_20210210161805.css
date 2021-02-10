@@ -817,14 +817,7 @@ h6 {
   background-position: center center;
   background-repeat: no-repeat;
 }
-.weedRip {
-  height: 50rem;
-  background: url("./images/equipment/mobile/wireMobile.jpg");
-  background-size: contain;
-  background-position: center center;
-  background-repeat: no-repeat;
-}
-.equipImgContainer {
+1 .equipImgContainer {
   height: 60rem;
   background: url("./images/equipment/mainequip.jpg");
   background-size: contain;

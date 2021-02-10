@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
 // import AllEquipment from '../images/equipment/mainequip.JPG'
-import Westermann from '../images/equipment/mobile/westermann1Mobile.jpg'
-import Westermann2 from '../images/equipment/mobile/wireMobile.jpg'
-import SkyVac from '../images/equipment/mobile/skyvacMobile.jpg'
-import Rotary from '../images/equipment/mobile/jetMobile.jpg'
-import Qleen from '../images/equipment/mobile/qleenMobile.jpg'
-import SkyBrush from '../images/equipment/mobile/skybrushMobile.jpg'
+import Westermann from '../images/equipment/mobile/westermann1.JPG'
+import Westermann2 from '../images/equipment/wire.jpg'
+import SkyVac from '../images/equipment/skyvac.JPG'
+import Rotary from '../images/equipment/jet.JPG'
+import Qleen from '../images/equipment/qleen.JPG'
+import SkyBrush from '../images/equipment/skybrush.JPG'
 
 
 

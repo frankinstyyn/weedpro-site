@@ -1,11 +1,8 @@
 import React, { Component } from 'react'
-// import AllEquipment from '../images/equipment/mainequip.JPG'
-import Westermann from '../images/equipment/mobile/westermann1Mobile.jpg'
-import Westermann2 from '../images/equipment/mobile/wireMobile.jpg'
-import SkyVac from '../images/equipment/mobile/skyvacMobile.jpg'
-import Rotary from '../images/equipment/mobile/jetMobile.jpg'
-import Qleen from '../images/equipment/mobile/qleenMobile.jpg'
-import SkyBrush from '../images/equipment/mobile/skybrushMobile.jpg'
+import SkyVac from '../images/equipment/skyvac.JPG'
+import Rotary from '../images/equipment/jet.JPG'
+import Qleen from '../images/equipment/qleen.JPG'
+import SkyBrush from '../images/equipment/skybrush.JPG'
 
 
 
@@ -18,7 +15,7 @@ export class Equipment extends Component {
                 <h5>Our high quality, cutting edge equipment, leave all our jobs with the best finish possible!</h5>
                     <p className="underline"> </p>
                 </div>
-                <div class="row half">
+                <div class="row equipRow">
                     <div class="col-sm-12">
                         <div className="equipImgContainer">
                         </div>
@@ -27,11 +24,11 @@ export class Equipment extends Component {
                 <div className="row equipRow">
                     <div className="col-sm-12 col-md-4">
                         <h5 className="equipHead">Westermann Moss/Weed <br/> Brush</h5>
-                            <img className="equipImage" src={Westermann} alt="A pile of debris for the preperation work for the job"/>
+                            <div className="westBrush"></div>
                     </div>
                     <div className="col-sm-12 col-md-4">
                             <h5 className="equipHead">Westermann Weed <br/> Ripper</h5>
-                            <img className="equipImage" src={Westermann2} alt="A westermann cleaner with a cleared pile of debris"/>
+                            <div className="equipImage"></div>
                     </div>
                     <div className="col-sm-12 col-md-4">
                             <h5 className="equipHead">Sky Vac Gutter <br/> Vacuum</h5>

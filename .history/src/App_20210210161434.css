@@ -807,19 +807,12 @@ h6 {
   }
 }
 /* End of About Code */
-.equipImage {
+/* .equipImage {
   width: 95%;
-}
-.westBrush {
-  height: 50rem;
+} */
+.equipImage .westBrush {
+  height: 90%;
   background: url("./images/equipment/westermann1.JPG");
-  background-size: contain;
-  background-position: center center;
-  background-repeat: no-repeat;
-}
-.weedRip {
-  height: 50rem;
-  background: url("./images/equipment/mobile/wireMobile.jpg");
   background-size: contain;
   background-position: center center;
   background-repeat: no-repeat;
