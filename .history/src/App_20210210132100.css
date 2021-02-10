@@ -1037,7 +1037,7 @@ h6 {
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
   #logo {
-    width: 68vw !important;
+    width: 70vw !important;
   }
 
   .col-sm-4 {
