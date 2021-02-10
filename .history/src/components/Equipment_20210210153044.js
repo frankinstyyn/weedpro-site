@@ -15,12 +15,13 @@ export class Equipment extends Component {
             <div id="equipment" className="services">
             <div class="servicesHead">
                 <h1>Meet The Team</h1>
-                <h5>Our high quality, cutting edge equipment, leave all our jobs with the best finish possible!</h5>
+                <h5>Our high quality, cutting edge equipment leaves all our jobs with the best finish!</h5>
                     <p className="underline"> </p>
                 </div>
                 <div class="row half">
                     <div class="col-sm-12">
                         <div className="equipImgContainer">
+                            <img className="simonEquip"/>
                         </div>
                     </div>
                 </div>

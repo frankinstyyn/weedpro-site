@@ -813,7 +813,7 @@ h6 {
 .equipImgContainer {
   height: 60rem;
   background: url("./images/equipment/mainequip.jpg");
-  background-size: contain;
+  background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
 }

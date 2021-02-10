@@ -21,6 +21,7 @@ export class Equipment extends Component {
                 <div class="row half">
                     <div class="col-sm-12">
                         <div className="equipImgContainer">
+                            {/* <img className="simonEquip"/> */}
                         </div>
                     </div>
                 </div>
