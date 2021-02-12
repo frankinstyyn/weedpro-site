@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import prepWork from '../images/prepWorkMobile.jpg'
 import initWork from '../images/initialCleanMobile.jpg'
-import finalFinish from '../images/finalFinishMobile.jpg'
+import finalFinish from '../images/finalFinish.jpg'
 
 export class WaysOfWorking extends Component {
     render() {
