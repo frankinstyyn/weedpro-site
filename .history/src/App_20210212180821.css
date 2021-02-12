@@ -194,8 +194,8 @@ h6 {
   z-index: 9999;
   padding: 10px;
   text-align: center;
-  display: none;
-  /* display: block; */
+  /* display: none; */
+  display: block;
   font-size: 1rem;
 }
 .msgAppear {
@@ -228,8 +228,8 @@ h6 {
   color: white;
   background-color: var(--primaryColor);
   border-radius: 30px;
-  display: none !important;
-  /* display: block; */
+  /* display: none !important; */
+  display: block;
   cursor: pointer;
   transition: 2s;
 }
