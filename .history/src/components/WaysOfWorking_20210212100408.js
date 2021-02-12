@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import prepWork from '../images/prepWorkMobile.jpg'
+import prepWork from '../images/prepWork.jpg'
 import initWork from '../images/initialClean.jpg'
 import finalFinish from '../images/finalFinish.jpg'
 
