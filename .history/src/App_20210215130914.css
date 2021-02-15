@@ -475,7 +475,6 @@ h6 {
   background-size: cover;
   background-position: 25% 25%;
   background-repeat: no-repeat;
-  background-color: var(--secondaryColor);
   overflow: hidden;
   height: auto;
   background-attachment: fixed;
@@ -518,7 +517,7 @@ h6 {
 @media screen and (min-width: 375px) and (max-width: 600px) {
   .defaultHero {
     background: linear-gradient(var(--whiteOverlay)),
-      url("./images/simonWestermannMobile.jpg") !important;
+      url("./images/simonWestermannMobile1.jpg") !important;
     background-size: cover !important;
     background-position: 20% !important;
     background-repeat: no-repeat;
