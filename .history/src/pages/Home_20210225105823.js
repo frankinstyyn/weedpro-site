@@ -22,7 +22,6 @@ export default function Home() {
   return (
     <>
       <MetaTags>
-            <title>WeedPro-UK | Weed Cleaning in Derby and Nottingham</title>
             <meta id="meta-description" name="description" content="WeedPro-UK - Derby based professional outdoor cleaning in Derbyshire and Nottinghamshire, contact us now! Cleaning in Derby and surrounding areas!" />
           </MetaTags>
     <Hero hero="defaultHero" >
