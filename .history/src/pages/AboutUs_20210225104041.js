@@ -1,6 +1,6 @@
 import React from "react";
 import Footer from "../components/Footer";
-import AboutSi from "../components/AboutSi";
+import AboutSi from "../components/AboutSi"
 
 // Google Analytics Code
 

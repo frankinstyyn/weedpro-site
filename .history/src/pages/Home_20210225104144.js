@@ -7,7 +7,7 @@ import Footer from "../components/Footer";
 import WaysOfWorking from "../components/WaysOfWorking";
 import CompletedWork from "../components/CompletedWork"
 import Equipment from "../components/Equipment";
-import MetaTags from 'react-meta-tags'
+import MetaTags from 'react-meta-tags';
 
 // Google Analytics Code
 
