@@ -1,11 +1,21 @@
 import React from "react";
 import Hero from "../components/Hero";
 import Banner from "../components/Banner";
-// import { Link } from "react-router-dom";
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-router-dom";
 import Services from "../components/Services"
-import { HashLink as Link } from 'react-router-hash-link';
 import Footer from "../components/Footer";
+import WaysOfWorking from "../components/WaysOfWorking";
+import CompletedWork from "../components/CompletedWork"
+import Equipment from "../components/Equipment";
+
+// Google Analytics Code
+
+import ReactGA from 'react-ga';
+ReactGA.initialize('G-QV5LQXQLT2');
+
+ReactGA.pageview(window.location.pathname + window.location.search);
+
+// Google Analytics Code End
 
 export default function Home() {
   return (
@@ -15,10 +25,12 @@ export default function Home() {
         <Link to="/services" className="btn-primary">
           Services
       </Link>
-      </Banner>
+        </Banner>
       </Hero>
       <Services />
-      {/* <Maps /> */}
+      <WaysOfWorking />
+      <CompletedWork />
+      <Equipment />
       <Footer />
       </>
   );
