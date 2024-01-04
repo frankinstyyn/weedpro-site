@@ -7,7 +7,7 @@ export class WaysOfWorking extends Component {
             <div className="row aboutRow">
                     <div className="col-sm-12 col-lg-6">
                     <h1 className="aboutHead aboutMobileHead">WeedPro UK  – OUR STORY</h1>
-                    <p className="aboutUnderline"> </p>
+                    <p className="aboutUnderline"></p>
                     <div className="aboutContainer">
                     <p id="aboutStory">
                         Weedpro is a local, family-run company which was established by myself (Simon Templeman) and my wife Gill, in September 2019. We initially started up as a specialised outdoor cleaning service offering the cleaning of patios, resin, patterned concrete, tarmac and block paving using unique wet & dry machines developed in Germany, without the need for chemicals. <br/>
