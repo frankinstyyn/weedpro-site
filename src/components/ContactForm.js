@@ -1,101 +1,21 @@
-import React from 'react'
-import emailjs from "emailjs-com"
-import { RiCloseCircleFill } from "react-icons/ri"
+import React from 'react';
 
-export default function ContactForm() {
-    
-    function sendEmail(e) {
-    e.preventDefault();
-
-    emailjs.sendForm('service_s5y1qte', 'template_samxpkr', e.target, 'user_kWWcUvCprigMjvbNgKLYz')
-      .then((result) => {
-          console.log(result.text);
-      }, (error) => {
-          console.log(error.text);
-      });
-        e.target.reset()
-
-    }
-    // This shows the pop up on form completion
-    function myPopUp() {
-        document.getElementById('popUp').setAttribute("class", "msgAppear");
-        document.getElementById('closePopUp').setAttribute("class", "closeMsg svg")
-    }
-    // This closes the pop up using the SVG
-    function closePopUp() {
-        document.getElementById('popUp').setAttribute("class", "msg");
-        document.getElementById('closePopUp').setAttribute("class", "SvgCloseMsg svg")
-    }
-          
-        return (
-            <div className="bannerForm">
-                <h3 className="headerRed">Get in touch for a free no obligation quotation</h3>
-                <form onSubmit={sendEmail} onReset={myPopUp}>
-                    {/* Single Item */}
-                    <div className="singleItem">
-                        <label htmlFor="name">Name</label>
-                            <input type="text"
-                                name="name"
-                                className="name"
-                                placeholder="Enter your name"
-                            required
-                            >
-                            </input>
-                    </div>
-                    {/* End of Single Item */}
-
-                    {/* Single Item */}
-                    <div className="singleItem">
-                        <label htmlFor="number">Number</label>
-                            <input type="text"
-                                name="number"
-                                className="number"
-                                placeholder="Enter Your Number"
-                            required
-                        >
-                            </input>
-                    </div>
-                    {/* End of Single Item */}
-
-                    {/* Single Item */}
-                    <div className="singleItem">
-                        <label htmlFor="email">Email</label>
-                            <input type="text"
-                                name="email"
-                                className="email"
-                                placeholder="Enter your email address"
-                                required
-                        >
-                            </input>
-                    </div>
-                    {/* End of Single Item */}
-
-                    {/* Single Item */}
-                    <div className="singleItem textArea">
-                        <label htmlFor="message">What work would you like completing?</label>
-                        <textarea name="message"
-                            id=""
-                            cols="30"
-                            rows="3"
-                            placeholder="Enter your job requirements"
-                            required
-                        ></textarea>
-                    </div>
-                    {/* End of Single Item */}
-                    <div id="popUp" className="msg">
-                        Hi there. Many thanks for your interest in Weedpro. Someone will respond within the next 24 hours! 
-                    </div>
-                    <div id="closePopUp" className="SvgCloseMsg">
-                        <RiCloseCircleFill onClick={closePopUp}></RiCloseCircleFill>
-                        </div>
-                    <div class="formBtn">
-                        <button type="submit">
-                            Send Message
-                        </button>
-                    </div>
-                </form>
-            </div>
-            
-        )
+const ContactForm = () => {
+  return (
+    <div className='bannerForm'>
+     <h3 className="headerRed">Get in touch for a free no obligation quotation</h3>
+     <div className='iFrameContainer'>
+      <iframe
+        title="Contact Form"
+        src="https://luminous-sprinkles-5b3b0b.netlify.app/"
+        width="100%"
+        height="600"
+        frameBorder="0"
+        scrolling="yes"
+        ></iframe>
+    </div>
+    </div>
+  );
 }
 
+export default ContactForm;
