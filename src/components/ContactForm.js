@@ -7,7 +7,7 @@ const ContactForm = () => {
      <div className='iFrameContainer'>
       <iframe
         title="Contact Form"
-        src="https://weedpro-form.netlify.app/"
+        src="https://form.jotform.com/240945760649063"
         width="100%"
         height="600"
         frameBorder="0"
