@@ -30,7 +30,20 @@ body {
   --whiteOverlay: rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3);
   --whiteOverlay: rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4);
 }
-
+input, textarea {
+  width: 90%;
+  padding-left: 10px;
+}
+label {
+  padding: 15px;
+}
+input {
+  height: 40px;
+}
+textarea {
+  height: 90px;
+  padding-top: 10px;
+}
 /* globals */
 body {
   /* padding-top: 66px; */
@@ -48,6 +61,9 @@ h1 {
   color: red;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
     1px 1px 0 #000;
+}
+.jt-dimmer {
+  background: transparent !important;
 }
 h2 {
   font-size: 2em;
@@ -161,8 +177,6 @@ h6 {
   align-content: center;
   display: inline-grid;
   font-size: 1.2rem;
-}
-.formBtn button {
   letter-spacing: 0.2rem;
   background-color: var(--secondaryColor);
   border: solid 2px var(--primaryColor);
@@ -171,6 +185,8 @@ h6 {
   transition: 0.5s ease-in-out;
   padding: 2%;
   margin: 2.5%;
+}
+.formBtn button {
 }
 .formBtn button:hover {
   background-color: var(--primaryColor);
@@ -181,6 +197,7 @@ h6 {
 }
 .msg {
   width: 90%;
+  height: 20%;
   overflow: hidden;
   background: var(--primaryColor);
   box-shadow: 0 0 10px black;
@@ -191,12 +208,17 @@ h6 {
   top: 62%;
   left: 50%;
   transform: translate(-50%, -50%);
-  z-index: 9999;
+  z-index: 9;
   padding: 10px;
   text-align: center;
   display: none;
   /* display: block; */
   font-size: 1rem;
+}
+
+.jotform-form {
+  position: relative;
+  top: -50px;
 }
 .msgAppear {
   /* This needs to be block to show the message box */
@@ -620,7 +642,9 @@ h6 {
 .servicesImg {
   width: 30px;
 }
-
+label.zf-labelName {
+  color: red;
+}
 .servicesImage {
   height: 50vh;
   text-align: center;
@@ -635,7 +659,10 @@ h6 {
   transform: translate(-50%, -50%);
   width: 85%;
 }
-
+iframe {
+  width: 400px !important;
+  height: 510px !important;
+}
 .servicesText h5 {
   font-size: 1.8rem;
   padding-bottom: 2rem;
@@ -759,6 +786,12 @@ h6 {
   .services-center {
     width: 95vw;
     max-width: 800px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .msg {
+    position: relative;
+    top: 15%;
   }
 }
 
