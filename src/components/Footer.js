@@ -71,7 +71,7 @@ const Footer = () => {
                 <div class="row">
                     <div class="col-xl-12 col-lg-12 text-center text-lg-center">
                         <div class="copyright-text">
-                            <p>Created by <a href="https://frankinstyyn.co.uk" target="_blank" rel="noreferrer">FrankinstyynWeb</a> &copy;{new Date().getFullYear()} | All Right Reserved </p>
+                            <p>Created by <a href="https://foxwebservices.com" target="_blank" rel="noreferrer">Fox Web Services</a> &copy;{new Date().getFullYear()} | All Right Reserved </p>
                         </div>
                     </div>
                 </div>
